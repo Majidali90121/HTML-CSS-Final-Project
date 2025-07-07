@@ -133,5 +133,5 @@ Open `Portofolio.html` in your browser to explore the Portfolio website.
 
 # 📬 Contact:
 
-✔ [My GitHub Profile](https://github.com/your-username)  
+✔ [My GitHub Profile](https://github.com/Majidali90121)  
 ✔ Open for collaboration and feedback  
