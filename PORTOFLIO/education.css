@@ -1,0 +1,134 @@
+body{
+    background: linear-gradient(to right,purple,green,gray);
+    height:100vh;
+    background-size:200%,200%;
+    background-position: 0% 50%;
+    animation: gradient 5s infinite ease-in-out;
+}
+@keyframes gradient {
+    0%{background:linear-gradient(to right,gray,purple,green)};
+    50%{background:linear-gradient(to right,green,purple,gray)};
+    100%{background:linear-gradient(to right,purple,gray,green)};
+}
+.color{
+    background:#302b63;
+    display:flex;
+    flex-direction: row-reverse;
+}
+.warp{
+    flex:60%;
+    float:right;
+    }
+.warp .static{
+    color:yellow;
+    font-size: 40px;
+    top:30px;
+    float:left;
+    margin-top:33px;
+    font-weight: 60px;
+}
+.warp .dynamic{
+    margin-left:15px;
+    height: 80px;
+    float:left;
+    overflow: hidden;
+    line-height: 90px;   
+}
+.warp .dynamic .texti{
+    list-style: none;
+    font-size: 50px;
+    top:0px;
+    position:relative;
+    font-weight: 60px;
+    color: hsl(246, 55%, 10%);
+    animation: slide 6s steps(2) infinite;
+}
+@keyframes slide{
+    100% {top:-180px;}
+}
+.dynamic .txti{
+    position: relative;
+}
+ .dynamic .txti::after{
+   content:"";
+   position:absolute;
+   left:0px;
+   background: #302b63;
+   height: 130%;
+   width: 100%;
+   animation:typing 3s steps(21) infinite;
+   border-left: 2px solid  #FC6D6D;
+}
+@keyframes typing{
+    100% {left:100%;margin:0px -35px 0px 35px;}
+}
+
+.text{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.writing{
+    color: white;
+    flex:50%;
+}
+
+.img{
+    margin-right:10px;
+    flex:45%;
+    position:relative;
+    animation-name:bjk ;
+    animation-duration:1.9s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ajk{
+    0%{
+        right:-40px;opacity:0;
+    }
+    100%{
+        right: 0px;opacity:1;
+    }
+}
+.animation{
+    animation-name:ajk;
+    position:relative;
+    animation-duration:1.9s;
+    animation-timing-function: ease;
+}
+@keyframes bjk{
+    0%{
+        left:-40px;opacity:0;
+    }
+    100%{
+        left: 0px;opacity:0.6;
+    }
+}
+.animation2{
+    animation-name:ajk;
+    position:relative;
+    animation-duration:1.9s;
+    animation-timing-function: ease;
+}
+.nav{
+    flex:40%;
+}
+.li{
+    float:left;
+    list-style-type: none;
+    padding: 30px;
+    margin: 9px;
+    background:yellowgreen;
+    border:yellowgreen;
+    border-radius:50%;   
+}
+.active{
+    background:purple;
+}
+.li:hover{
+    background-color:purple;
+    font-size:30px;
+}
+a{
+    text-decoration:none;
+}

@@ -1,0 +1,167 @@
+body{
+    background: linear-gradient(to right,#0f0c29,#302b63,#24243e);
+    height:100vh;
+    background-size:200%,200%;
+    background-position: 0% 50%;
+    animation: gradient 5s infinite ease-in-out;
+}
+@keyframes gradient {
+    0%{background:linear-gradient(to right,#0f0c29,#302b63,#24243e)};
+    50%{background:linear-gradient(to right,#302b63,#0f0c29,#24243e)};
+    100%{background:linear-gradient(to right,#24243e,#0f0c29,#302b63)};
+}
+.color{
+    background:#302b63;
+    display:flex;
+}
+.warp{
+    display:inline-flex;
+    flex:60%;
+}
+.warp .static{
+    color:yellow;
+    font-size: 50px;
+    top:30px;
+    margin-top:33px;
+    font-weight: 150px;
+}
+.warp .dynamic{
+    margin-left:15px;
+    height: 80px;
+    overflow: hidden;
+    line-height: 90px;   
+}
+.warp .dynamic .texti{
+    list-style: none;
+    font-size: 50px;
+    top:0px;
+    position:relative;
+    font-weight: 150px;
+    color: #0f0c29;
+    animation: slide 5s steps(2) infinite;
+}
+@keyframes slide{
+    100% {top:-180px;}
+}
+.dynamic .txti{
+    position: relative;
+}
+ .dynamic .txti::after{
+   content:"";
+   position:absolute;
+   left:0px;
+   background: #302b63;
+   height: 100%;
+   width: 100%;
+   animation:typing 2.5s steps(19) infinite;
+   border-left: 2px solid  #FC6D6D;
+}
+@keyframes typing{
+    100% {left:100%;margin:0px -35px 0px 35px;}
+}
+.text{
+    display:flex;
+}
+
+.writing{
+    color: white;
+    flex:50%;
+}
+img{
+    flex:40%;
+}
+button{
+    display: inline-block;
+    padding:20px;
+    width:200px;
+    border-radius:50px;
+    width:150px;
+    margin-top:20px;
+    font-weight: bold;
+    background-color: #76ABAE;
+    text-align: center;
+    transition:all 0.2s;
+    }
+    button:hover{
+        background:red
+    }
+span{
+        position:relative;
+        display:inline-block;
+        cursor:pointer;
+        font-weight: bold;
+        transition: 0.5s ease-in;
+}
+.animation::after{
+    content:"\00bb";
+    opacity:0;
+    top:0;
+    right:-20px;
+  transition:.5s;
+}
+button:hover span{
+    padding-right: 25px;
+}
+button:hover .animation::after{
+    opacity:1;
+    right:0;
+}
+a{
+    text-decoration:none;
+}
+.img{
+    position:relative;
+    animation-name:ajk ;
+    animation-duration:1.9s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes ajk{
+    0%{
+        right:-40px;opacity:0;
+    }
+    100%{
+        right: 0px;opacity:1;
+    }
+}
+.animation{
+    animation-name:bjk;
+    position:relative;
+    animation-duration:1.9s;
+    animation-timing-function: ease;
+}
+@keyframes bjk{
+    0%{
+        left:-40px;opacity:0;
+    }
+    100%{
+        left: 0px;opacity:0.6;
+    }
+}
+.animation2{
+    animation-name:bjk;
+    position:relative;
+    animation-duration:1.9s;
+    animation-timing-function: ease;
+}
+.nav{
+    flex:40%;
+ 
+}
+.li{
+    float:left;
+    list-style-type: none;
+    padding: 30px;
+    margin: 30px;
+    background:yellowgreen;
+    border:yellowgreen;
+    border-radius:50%;   
+}
+.active{
+    background:purple;
+    
+}
+.li:hover{
+    background-color:purple;
+    font-size:20px;
+}
