@@ -3,6 +3,9 @@
 This repository contains beginner-level frontend projects demonstrating my skills in HTML, CSS, and responsive UI design. Scroll down to explore each project with screenshots and feature details.
 
 ---
+============================================
+<br>
+<br>
 
 # 🛒 1️⃣ Amazon Clone Project
 
@@ -18,6 +21,9 @@ A beginner-level Amazon Clone homepage replicating the basic layout and design o
 ✔ Hoverable buttons and product effects  
 
 ---
+==================================================
+<br>
+<br>
 
 ## 📸 Screenshots:
 
@@ -25,16 +31,27 @@ A beginner-level Amazon Clone homepage replicating the basic layout and design o
 ![Amazon Screenshot 1](./Images/Amazone1.png)
 
 ---
+=====================================
+<br>
+<br>
+
 
 **Product Section View**  
 ![Amazon Screenshot 2](./Images/Amazone2.png)
 
 ---
+=====================================
+<br>
+<br>
+
 
 **Footer View**  
 ![Amazon Screenshot 3](./Images/Amazone3.png)
 
 ---
+=====================================
+<br>
+<br>
 
 ## 🛠 Technologies Used:
 
@@ -42,12 +59,21 @@ A beginner-level Amazon Clone homepage replicating the basic layout and design o
 - CSS3  
 
 ---
+=====================================
+<br>
+<br>
 
 ## 🚀 How to Run:
 
-Open `index.html` in your browser to view the Amazon Clone layout.
+Open `Amazone.html` in your browser to view the Amazon Clone layout.
 
 ---
+======================================
+<br>
+<br>
+<br>
+<br>
+
 
 # 🎨 2️⃣ Personal Portfolio Website
 
@@ -62,23 +88,35 @@ A clean, responsive personal portfolio to showcase my details, education, and Gi
 ✔ Clean responsive layout for all devices  
 
 ---
+=========================================
+<br>
+<br>
 
 ## 📸 Screenshots:
 
-**Full Portfolio Layout**  
+**About Section**  
 ![Portfolio Screenshot 1](./Images/Portofolio1.png)
 
 ---
+===========================================
+<br>
+<br>
 
-**About & Education Section**  
+**Education Section**  
 ![Portfolio Screenshot 2](./Images/Portofolio2.png)
 
 ---
+==============================================
+<br>
+<br>
 
 **Contact / Hire Me Section**  
 ![Portfolio Screenshot 3](./Images/Portofolio3.png)
 
 ---
+================================================
+<br>
+<br>
 
 ## 🛠 Technologies Used:
 
@@ -89,7 +127,7 @@ A clean, responsive personal portfolio to showcase my details, education, and Gi
 
 ## 🚀 How to Run:
 
-Open `index.html` in your browser to explore the Portfolio website.
+Open `Portofolio.html` in your browser to explore the Portfolio website.
 
 ---
 
