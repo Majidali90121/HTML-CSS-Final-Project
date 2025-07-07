@@ -86,7 +86,7 @@ A clean, responsive personal portfolio to showcase my details, education, and Gi
 ✔ Navbar with About, Education, and Hire Me sections (hoverable)  
 ✔ GitHub Profile button with hover effect  
 ✔ Clean responsive layout for all devices  
-✔ Add animation on NavBar
+✔ Add animation on NavBar<br>
 ✔ `Hoverable` and `animated` button
 ---
 =========================================
