@@ -1,34 +1,38 @@
-# 🌐 Majid's Web Development Projects
+# 🌐 Majid's Frontend Projects
 
-Welcome to my collection of frontend development projects. These projects demonstrate my skills in HTML, CSS, and interactive UI design. Scroll down to see project details, screenshots, and live video previews.
-
----
-
-## 📁 Projects Included:
+This repository contains beginner-level frontend projects demonstrating my skills in HTML, CSS, and responsive UI design. Scroll down to explore each project with screenshots and feature details.
 
 ---
 
-# 🎨 1️⃣ Personal Portfolio Website
+# 🛒 1️⃣ Amazon Clone Project
 
-A clean, responsive portfolio showcasing my personal information, education, and contact details, designed with HTML and CSS.
+A beginner-level Amazon Clone homepage replicating the basic layout and design of the popular e-commerce website using pure HTML and CSS.
 
 ---
 
 ## 💡 Features:
 
-✔ Stylish Navbar with smooth hover effects  
-✔ Sections Included:
-   - **About**  
-   - **Education**  
-   - **Hire Me / Contact Details**  
-✔ GitHub profile link button with hover effect  
-✔ Fully responsive layout for different screen sizes  
+✔ Header with logo, search bar, and cart icon  
+✔ Product sections styled to mimic real e-commerce layout  
+✔ Fully responsive for desktop and mobile  
+✔ Hoverable buttons and product effects  
 
 ---
 
-## 🎥 Project Demo:
+## 📸 Screenshots:
 
-[![Portfolio Video](./Video/Portofolio.mp4)](./Video/Portofolio.mp4)
+**Homepage View**  
+![Amazon Screenshot 1](./Images/Amazone1.png)
+
+---
+
+**Product Section View**  
+![Amazon Screenshot 2](./Images/Amazone2.png)
+
+---
+
+**Footer View**  
+![Amazon Screenshot 3](./Images/Amazone3.png)
 
 ---
 
@@ -39,26 +43,40 @@ A clean, responsive portfolio showcasing my personal information, education, and
 
 ---
 
+## 🚀 How to Run:
+
+Open `index.html` in your browser to view the Amazon Clone layout.
+
 ---
 
-# 🛒 2️⃣ Amazon Clone Website
+# 🎨 2️⃣ Personal Portfolio Website
 
-A beginner-level Amazon Clone layout designed to mimic the look of an e-commerce homepage using HTML and CSS.
+A clean, responsive personal portfolio to showcase my details, education, and GitHub profile with interactive elements.
 
 ---
 
 ## 💡 Features:
 
-✔ Header with logo and search bar  
-✔ Product sections designed with clean CSS  
-✔ Fully responsive structure for desktop and mobile  
-✔ Hoverable buttons and interactive sections  
+✔ Navbar with About, Education, and Hire Me sections (hoverable)  
+✔ GitHub Profile button with hover effect  
+✔ Clean responsive layout for all devices  
 
 ---
 
-## 🎥 Project Demo:
+## 📸 Screenshots:
 
-[![Amazon Clone Video](./Video/Amazone.mp4)](./Video/Amazone.mp4)
+**Full Portfolio Layout**  
+![Portfolio Screenshot 1](./Images/Portofolio1.png)
+
+---
+
+**About & Education Section**  
+![Portfolio Screenshot 2](./Images/Portofolio2.png)
+
+---
+
+**Contact / Hire Me Section**  
+![Portfolio Screenshot 3](./Images/Portofolio3.png)
 
 ---
 
@@ -69,10 +87,13 @@ A beginner-level Amazon Clone layout designed to mimic the look of an e-commerce
 
 ---
 
-# 📬 Contact Me
+## 🚀 How to Run:
 
-✔ View my GitHub profile: [GitHub](https://github.com/Majidali90121)  
-✔ I'm open for collaboration and new opportunities  
+Open `index.html` in your browser to explore the Portfolio website.
 
 ---
 
+# 📬 Contact:
+
+✔ [My GitHub Profile](https://github.com/your-username)  
+✔ Open for collaboration and feedback  
