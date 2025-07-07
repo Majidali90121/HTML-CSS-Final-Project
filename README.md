@@ -65,8 +65,8 @@ A beginner-level Amazon Clone homepage replicating the basic layout and design o
 
 ## 🚀 How to Run:
 
-Open `Amazone.html` in your browser to view the Amazon Clone layout.
-
+Open `Amazone.html` in your browser to view the Amazon Clone layout.<br>
+These are only for `PC`
 ---
 ======================================
 <br>
@@ -128,8 +128,8 @@ A clean, responsive personal portfolio to showcase my details, education, and Gi
 
 ## 🚀 How to Run:
 
-Open `Portofolio.html` in your browser to explore the Portfolio website.
-
+Open `Portofolio.html` in your browser to explore the Portfolio website.<br>
+These are only for `PC`
 ---
 
 # 📬 Contact:
